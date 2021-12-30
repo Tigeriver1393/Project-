@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* MENU */
+
+.container {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    height: 50px;
+    justify-content: space-between;
+    font-family: "Calistoga";
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: linen;
+    color: black;
+    border-radius: 12px;
+}
+
+li a.active {
+    color: black;
+    background-color: orange;
+}
+
+.container div h1:hover {
+    background-color: linen;
+    border-radius: 12px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    height: 50px;
+}
+
+
+/* ul div h1 {
+        float: left;
+    } */
+
+
+/* Presentation */
+
+.presentation {
+    display: flex;
+    flex-flow: row;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../img/background.jpeg) no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 100%;
+}
+
+.presentation div h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+.presentation div h2 {
+    text-align: center;
+    color: white;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.presentation a {
+    margin-left: 47%;
+}
+
+.presentation a:hover {
+    color: orange;
+    background-color: white;
+}
+
+
+/* Box */
+
+
+/* 1ère box */
+
+.first {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    height: 500px;
+}
+
+.firstbox {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 40%;
+    -ms-flex: 0 1 40%;
+    flex: 0 1 40%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    background: url(/img/second.jpg);
+    background-size: 100%;
+}
+
+.firstbox h2 {
+    text-align: center;
+}
+
+.firstbox p {
+    text-align: center;
+}
+
+.firstbox:hover {
+    background: url(/img/background.jpeg);
+}
+
+.secondbox {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 60%;
+    -ms-flex: 0 1 60%;
+    flex: 0 1 60%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    background-color: black;
+}
+
+.secondbox:hover {
+    background: url(/img/background.jpeg)
+}
+
+.secondbox h2 {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+.secondbox p {
+    text-align: center;
+    color: white;
+}
+
+span {
+    color: orange;
+}
+
+.secondbox a {
+    margin-left: 45%;
+}
+
+.secondbox a:hover {
+    color: orange;
+    background-color: white;
+}
+
+
+/* 2eme box */
+
+.second2 {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    /* -webkit-justify-content: space-between; */
+    -ms-flex-pack: justify;
+    /* justify-content: space-between; */
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+}
+
+.firstbox2 {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 33.33%;
+    -ms-flex: 0 1 33.33%;
+    flex: 0 1 33.33%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.firstbox2 h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.firstbox2 p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.firstbox2:hover {
+    background: orange;
+}
+
+.secondbox2 {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 33.33%;
+    -ms-flex: 0 1 33.33%;
+    flex: 0 1 33.33%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.secondbox2 h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.secondbox2 p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.secondbox2:hover {
+    background: orange;
+}
+
+.thirdbox2 {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 33.33%;
+    -ms-flex: 0 1 33.33%;
+    flex: 0 1 33.33%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.thirdbox2:hover {
+    background-color: orange;
+}
+
+.thirdbox2 h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.thirdbox2 p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* Page2 */
+
+.container-propos {
+    height: 100%;
+}
+
+.propos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    height: auto;
+    width: 65%;
+    margin-bottom: 12.5%;
+    margin-top: 5%;
+}
+
+.paragraphe-left h2,
+p {
+    font-family: "Calistoga";
+    font-weight: bold;
+}
+
+.logo-right img {
+    overflow: hidden;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    width: 180px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.avis-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.avis-container h2 {
+    display: flex;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.avis p {
+    display: block;
+    border: 2px solid orange;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-left: 2px;
+    font-family: "Calistoga";
+    font-weight: bold;
+}
+
+hr {
+    margin-right: 100px;
+    visibility: hidden;
+}
+
+
+/* page3 */
+
+
+/* FORMULAIRE */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.form span {
+    color: red;
+}
+
+.form-box {
+    display: flex;
+    background-color: lightslategrey;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: content-box;
+}
+
+.form-choose {
+    justify-content: left;
+    margin-left: 2px;
+}
+
+.form-text {
+    width: 300px;
+    height: 200px;
+    margin-right: 5px;
+}
+
+.form-text textarea {
+    width: 300px;
+    height: 200px;
+    resize: none;
+}
+
+.form-titre span {
+    color: red;
+}
+
+.container-nation {
+    display: block;
+    padding: 20px;
+}
+
+.container-nation select {
+    width: 200px;
+}
+
+.form-choose span {
+    color: blue;
+}
+
+.send {
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+    justify-content: center;
+    font-size: 10px;
+    height: 30px;
+}
